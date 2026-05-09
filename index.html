@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Wave Indonesia</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="2.png">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #ffffff;
+    }
+  </style>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+
+<body class="bg-white text-slate-900 overflow-x-hidden">
+
+
+<!-- NAVBAR -->
+
+<nav class="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-white/80 border-b border-slate-200">
+
+  <div class="max-w-6xl mx-auto px-5 py-1 flex items-center justify-between">
+
+    <!-- LOGO -->
+    <div class="flex items-center gap-3">
+
+      <img src="3.png"
+           alt="Logo HPA"
+           class="w-11 md:w-12 h-auto object-contain">
+
+      <div>
+
+        <h1 class="text-lg font-semibold leading-none">
+          Wave
+        </h1>
+
+        <p class="text-xs text-slate-500">
+          HPA International
+        </p>
+
+      </div>
+
+    </div>
+
+    <!-- DESKTOP MENU -->
+    <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-700">
+
+      <a href="#home" class="hover:text-black transition">
+        Beranda
+      </a>
+
+      <a href="#produk" class="hover:text-black transition">
+        Produk
+      </a>
+
+      <a href="#manfaat" class="hover:text-black transition">
+        Manfaat
+      </a>
+
+      <a href="#testimoni" class="hover:text-black transition">
+        Testimoni
+      </a>
+
+      <a href="#faq" class="hover:text-black transition">
+        FAQ
+      </a>
+
+    </div>
+
+    <!-- RIGHT -->
+    <div class="flex items-center gap-3">
+
+      <!-- WA BUTTON DESKTOP -->
+      <a href="https://wa.me/6287768668790?text=Assalamu'alaikum%20saya%20tertarik%20untuk%20mengetahui%20lebih%20lanjut%20mengenai%20produk%20Wave."
+         target="_blank"
+         class="hidden md:block bg-slate-900 text-white text-sm px-5 py-3 rounded-full hover:scale-105 transition duration-300 shadow-lg">
+
+        WhatsApp
+
+      </a>
+
+      <!-- MOBILE MENU BUTTON -->
+      <button id="menu-btn" class="md:hidden text-3xl text-slate-900">
+        ☰
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <!-- MOBILE MENU -->
+
+  <div id="mobile-menu"
+       class="hidden md:hidden bg-white border-t border-slate-200 px-5 pb-5">
+
+    <div class="flex flex-col gap-5 pt-5 text-slate-700 font-medium">
+
+      <a href="#home">Beranda</a>
+      <a href="#produk">Penjelasan Produk</a>
+      <a href="#manfaat">Manfaat</a>
+      <a href="#testimoni">Testimoni</a>
+      <a href="#faq">FAQ</a>
+
+      <a href="https://wa.me/6287768668790?text=Assalamu'alaikum%20saya%20tertarik%20untuk%20mengetahui%20lebih%20lanjut%20mengenai%20produk%20Wave."
+         target="_blank"
+         class="bg-slate-900 text-white text-center py-3 rounded-full">
+
+        WhatsApp
+
+      </a>
+
+    </div>
+
+  </div>
+
+</nav>
+
+<!-- HERO SECTION -->
+
+<section id="home"
+class="relative overflow-hidden bg-[#f3f6f8] min-h-screen flex items-center px-5 py-24">
+
+  <!-- BLUR BACKGROUND -->
+
+  <div class="absolute top-[-100px] right-[-100px]
+  w-[320px] h-[320px]
+  bg-blue-200/40 blur-3xl rounded-full"></div>
+
+  <div class="absolute bottom-[-120px] left-[-120px]
+  w-[300px] h-[300px]
+  bg-[#d8c3a5]/20 blur-3xl rounded-full"></div>
+
+  <!-- CONTAINER -->
+
+  <div class="max-w-6xl mx-auto w-full
+  grid md:grid-cols-2 gap-16 items-center relative z-10">
+
+    <!-- LEFT -->
+
+    <div class="text-center md:text-left">
+
+      <!-- TAGLINE -->
+
+      <p class="uppercase tracking-[4px]
+      text-blue-700 text-xs font-semibold mb-5">
+
+        Premium Wellness Solution
+
+      </p>
+
+      <!-- HEADING -->
+
+      <h1 class="text-4xl md:text-6xl
+      font-bold leading-tight text-slate-900 mb-6">
+
+        Membantu Memberikan
+        <span class="text-blue-700">
+          Relaksasi
+        </span>
+        dan Kenyamanan Tubuh
+      </h1>
+
+      <!-- DESC -->
+
+      <p class="text-slate-600 text-lg leading-relaxed mb-10 max-w-xl">
+
+        Wave hadir sebagai produk pendukung relaksasi tubuh dan kenyamanan sistem saraf untuk membantu menunjang aktivitas dan kualitas istirahat sehari-hari.
+
+      </p>
+
+      <!-- BUTTON -->
+
+      <a href="https://wa.me/6287768668790?text=Assalamu'alaikum,%20saya%20ingin%20mendapatkan%20informasi%20mengenai%20produk%20Wave"
+         target="_blank"
+         class="inline-flex items-center gap-3
+         bg-[#2f5d7c] hover:bg-[#264b63]
+         text-white px-8 py-4 rounded-full
+         transition duration-300 shadow-lg shadow-blue-45">
+
+         Konsultasikan Produk Wave
+
+      </a>
+
+    </div>
+
+    <!-- RIGHT -->
+
+    <div class="relative flex justify-center">
+
+      <!-- GLOW -->
+
+      <div class="absolute
+      w-[260px] h-[260px]
+      md:w-[380px] md:h-[380px]
+      bg-blue-300/30 blur-3xl rounded-full">
+      </div>
+
+      <!-- PRODUCT IMAGE -->
+
+      <img src="1.png"
+           alt="Wave Product"
+           class="relative z-10
+           w-[200px] md:w-[340px]
+           drop-shadow-[0_30px_60px_rgba(59,130,246,0.25)]
+           hover:scale-105 transition duration-500">
+
+    </div>
+
+  </div>
+
+</section>
+
+<div class="max-w-5xl mx-auto px-5">
+  <div class="border-b border-slate-200"></div>
+</div>
+
+<!-- CARA KERJA -->
+
+<section class="py-20 md:py-28 px-5 bg-white">
+
+  <div class="max-w-5xl mx-auto">
+
+    <!-- TITLE -->
+    <div class="text-center mb-16">
+
+      <p class="text-slate-500 uppercase tracking-[3px] text-xs mb-4">
+        Cara Kerja Wave
+      </p>
+
+      <h2 class="text-2xl md:text-5xl font-bold leading-tight mb-6">
+        Membantu Memberikan Efek Relaksasi dan Kenyamanan Tubuh
+      </h2>
+
+      <p class="text-slate-600 leading-relaxed max-w-2xl mx-auto">
+        Wave digunakan sebagai pendukung relaksasi tubuh dan membantu memberikan rasa nyaman pada sistem saraf serta aktivitas sehari-hari.
+      </p>
+
+    </div>
+
+    <!-- GRID -->
+
+    <div class="grid gap-8 md:grid-cols-3">
+
+      <!-- ITEM -->
+      <div class="bg-slate-50 rounded-3xl p-8 border border-slate-100 hover:-translate-y-1 hover:shadow-xl transition duration-300">
+
+        <div class="text-5xl font-bold text-slate-200 mb-6">
+          01
+        </div>
+
+        <h3 class="text-xl font-semibold mb-4">
+          Penggunaan Praktis
+        </h3>
+
+        <p class="text-slate-600 leading-relaxed">
+          Digunakan sesuai petunjuk penggunaan untuk membantu memberikan rasa nyaman dan relaksasi tubuh.
+        </p>
+
+      </div>
+
+      <!-- ITEM -->
+      <div class="bg-slate-50 rounded-3xl p-8 border border-slate-100 hover:-translate-y-1 hover:shadow-xl transition duration-300">
+
+        <div class="text-5xl font-bold text-slate-200 mb-6">
+          02
+        </div>
+
+        <h3 class="text-xl font-semibold mb-4">
+          Mendukung Relaksasi Sistem Saraf
+        </h3>
+
+        <p class="text-slate-600 leading-relaxed">
+          Membantu memberikan efek tenang dan nyaman pada tubuh saat mengalami kelelahan, gelisah, maupun aktivitas padat.
+        </p>
+
+      </div>
+
+      <!-- ITEM -->
+      <div class="bg-slate-50 rounded-3xl p-8 border border-slate-100 hover:-translate-y-1 hover:shadow-xl transition duration-300">
+
+        <div class="text-5xl font-bold text-slate-200 mb-6">
+          03
+        </div>
+
+        <h3 class="text-xl font-semibold mb-4">
+          Mendukung Aktivitas Harian
+        </h3>
+
+        <p class="text-slate-600 leading-relaxed">
+          Membantu menjaga kenyamanan tubuh dan kualitas istirahat untuk menunjang aktivitas sehari-hari.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- PRODUK SECTION -->
+
+<section id="produk" class="py-20 md:py-28 px-5 bg-white">
+
+  <div class="max-w-6xl mx-auto">
+
+    <!-- TITLE -->
+    <div class="text-center mb-16">
+
+      <p class="text-slate-500 uppercase tracking-[3px] text-xs mb-4">
+        Penjelasan Produk
+      </p>
+
+      <h2 class="text-2xl md:text-5xl font-bold leading-tight mb-6">
+        Penjelasan Wave oleh Founder HPA
+      </h2>
+
+      <p class="text-slate-600 leading-relaxed max-w-2xl mx-auto">
+        Simak penjelasan langsung mengenai manfaat dan penggunaan produk Wave.
+      </p>
+
+    </div>
+
+    <!-- VIDEO GRID -->
+
+    <div class="grid gap-8 md:grid-cols-3">
+
+      <!-- VIDEO 1 -->
+      <div class="bg-slate-50 rounded-3xl p-4 shadow-sm border border-slate-100 hover:-translate-y-1 hover:shadow-xl transition duration-300">
+
+        <video controls class="w-full rounded-2xl">
+          <source src="Video Tuan Haji (Liver).mp4" type="video/mp4">
+        </video>
+
+        <p class="text-sm text-slate-500 mt-4">
+        Penjelasan Founder HPA
+        </p>
+
+      </div>
+
+      <!-- VIDEO 2 -->
+      <div class="bg-slate-50 rounded-3xl p-4 shadow-sm border border-slate-100 hover:-translate-y-1 hover:shadow-xl transition duration-300">
+
+        <video controls class="w-full rounded-2xl">
+          <source src="Video Tuan Haji Detox.mp4" type="video/mp4">
+        </video>
+
+      </div>
+
+      <!-- VIDEO 3 -->
+      <div class="bg-slate-50 rounded-3xl p-4 shadow-sm border border-slate-100 hover:-translate-y-1 hover:shadow-xl transition duration-300">
+
+        <video controls class="w-full rounded-2xl">
+          <source src="Video Tuan Haji Mudah Bersalin.mp4" type="video/mp4">
+        </video>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<div class="max-w-5xl mx-auto px-5">
+  <div class="border-b border-slate-200"></div>
+</div>
+
+<!-- MANFAAT SECTION -->
+
+<section id="manfaat" class="py-20 md:py-28 px-5 bg-slate-50">
+
+  <div class="max-w-5xl mx-auto">
+
+    <!-- TITLE -->
+    <div class="text-center mb-16">
+
+      <p class="text-slate-500 uppercase tracking-[3px] text-xs mb-4">
+        Manfaat & Solusi
+      </p>
+
+      <h2 class="text-2xl md:text-5xl font-bold leading-tight mb-6">
+        Bagaimana Wave Membantu Aktivitas Sehari-hari
+      </h2>
+
+      <p class="text-slate-600 leading-relaxed max-w-2xl mx-auto">
+        Wave digunakan sebagai pendukung relaksasi tubuh dan membantu memberikan rasa nyaman dalam aktivitas sehari-hari.
+      </p>
+
+    </div>
+
+
+    <!-- GRID -->
+
+    <div class="grid gap-6 md:grid-cols-2">
+
+
+      <!-- CARD -->
+      <div class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 hover:-translate-y-1 hover:shadow-xl transition duration-300">
+
+        <div class="text-5xl font-bold text-slate-200 mb-6">
+          01
+        </div>
+
+        <h3 class="text-xl font-semibold mb-4">
+          Relaksasi Sistem Saraf
+        </h3>
+
+        <p class="text-slate-600 leading-relaxed">
+          Membantu memberikan rasa nyaman dan rileks saat tubuh mengalami kelelahan dan aktivitas padat.
+        </p>
+
+      </div>
+
+
+      <!-- CARD -->
+      <div class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 hover:-translate-y-1 hover:shadow-xl transition duration-300">
+
+        <div class="text-5xl font-bold text-slate-200 mb-6">
+          02
+        </div>
+
+        <h3 class="text-xl font-semibold mb-4">
+          Mendukung Kualitas Istirahat
+        </h3>
+
+        <p class="text-slate-600 leading-relaxed">
+          Membantu tubuh lebih rileks sehingga mendukung kualitas istirahat yang lebih nyaman.
+        </p>
+
+      </div>
+
+
+      <!-- CARD -->
+      <div class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 hover:-translate-y-1 hover:shadow-xl transition duration-300">
+
+        <div class="text-5xl font-bold text-slate-200 mb-6">
+          03
+        </div>
+
+        <h3 class="text-xl font-semibold mb-4">
+          Pendukung Aktivitas Harian
+        </h3>
+
+        <p class="text-slate-600 leading-relaxed">
+          Digunakan untuk membantu kenyamanan tubuh dalam menjalani aktivitas sehari-hari.
+        </p>
+
+      </div>
+
+
+      <!-- CARD -->
+      <div class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 hover:-translate-y-1 hover:shadow-xl transition duration-300">
+
+        <div class="text-5xl font-bold text-slate-200 mb-6">
+          04
+        </div>
+
+        <h3 class="text-xl font-semibold mb-4">
+          Penggunaan Praktis
+        </h3>
+
+        <p class="text-slate-600 leading-relaxed">
+          Praktis digunakan kapan saja sesuai kebutuhan untuk membantu memberikan rasa nyaman.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<div class="max-w-5xl mx-auto px-5">
+  <div class="border-b border-slate-200"></div>
+</div>
+
+<!-- DUKUNGAN WAVE -->
+
+<section class="py-20 md:py-28 px-5 bg-slate-50">
+
+  <div class="max-w-5xl mx-auto">
+
+    <!-- TITLE -->
+    <div class="text-center mb-16">
+
+      <p class="text-slate-500 uppercase tracking-[3px] text-xs mb-4">
+        Dukungan Wave
+      </p>
+
+      <h2 class="text-2xl md:text-5xl font-bold leading-tight mb-6">
+        Membantu Memberikan Kenyamanan pada Berbagai Aktivitas
+      </h2>
+
+    </div>
+
+    <!-- GRID -->
+    <div class="grid gap-6 md:grid-cols-2">
+
+      <!-- CARD -->
+      <div class="bg-white rounded-3xl p-8 border border-slate-100 hover:-translate-y-1 hover:shadow-xl transition duration-300">
+
+        <h3 class="text-xl font-semibold mb-4">
+          Sistem Saraf & Relaksasi
+        </h3>
+
+        <p class="text-slate-600 leading-relaxed">
+          Membantu memberikan rasa nyaman dan relaksasi tubuh saat mengalami kelelahan, gelisah, ketegangan, maupun gangguan kualitas istirahat.
+        </p>
+
+      </div>
+
+      <!-- CARD -->
+      <div class="bg-white rounded-3xl p-8 border border-slate-100 hover:-translate-y-1 hover:shadow-xl transition duration-300">
+
+        <h3 class="text-xl font-semibold mb-4">
+          Kenyamanan Aktivitas Harian
+        </h3>
+
+        <p class="text-slate-600 leading-relaxed">
+          Membantu mendukung kenyamanan tubuh saat menjalani aktivitas sehari-hari dan menjaga kualitas kebugaran tubuh.
+        </p>
+
+      </div>
+
+      <!-- CARD -->
+      <div class="bg-white rounded-3xl p-8 border border-slate-100 hover:-translate-y-1 hover:shadow-xl transition duration-300">
+
+        <h3 class="text-xl font-semibold mb-4">
+          Dukungan Kualitas Istirahat
+        </h3>
+
+        <p class="text-slate-600 leading-relaxed">
+          Membantu tubuh lebih rileks sehingga mendukung kualitas istirahat dan kenyamanan tidur.
+        </p>
+
+      </div>
+
+      <!-- CARD -->
+      <div class="bg-white rounded-3xl p-8 border border-slate-100 hover:-translate-y-1 hover:shadow-xl transition duration-300">
+
+        <h3 class="text-xl font-semibold mb-4">
+          Menjaga Kenyamanan Tubuh
+        </h3>
+
+        <p class="text-slate-600 leading-relaxed">
+          Digunakan sebagai pendukung relaksasi tubuh dan membantu memberikan rasa nyaman dalam berbagai kondisi aktivitas.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- TESTIMONI -->
+
+<section id="testimoni" class="py-20 md:py-28 px-5 bg-white">
+
+  <div class="max-w-5xl mx-auto">
+
+    <div class="text-center mb-16">
+
+      <p class="text-slate-500 uppercase tracking-[3px] text-xs mb-4">
+        Testimoni
+      </p>
+
+      <h2 class="text-2xl md:text-5xl font-bold leading-tight mb-6">
+        Pengalaman Pengguna Wave
+      </h2>
+
+    </div>
+
+
+    <div class="grid gap-8 md:grid-cols-2">
+
+
+      <!-- VIDEO -->
+      <div class="bg-slate-50 rounded-3xl p-5 shadow-sm border border-slate-100">
+
+        <video controls class="w-full rounded-2xl">
+          <source src="TESTIMONI FIX.mp4" type="video/mp4">
+        </video>
+
+      </div>
+
+
+      <!-- VIDEO -->
+      <div class="bg-slate-50 rounded-3xl p-5 shadow-sm border border-slate-100">
+
+        <video controls class="w-full rounded-2xl">
+          <source src="TESTIMONI FIX2.mp4" type="video/mp4">
+        </video>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+<div class="max-w-5xl mx-auto px-5">
+  <div class="border-b border-slate-200"></div>
+</div>
+
+<!-- FAQ -->
+
+<section id="faq" class="py-20 md:py-28 px-5 bg-[#f7f9fc]">
+
+  <div class="max-w-4xl mx-auto">
+
+    <!-- TITLE -->
+
+    <div class="text-center mb-14">
+
+      <p class="text-blue-600 uppercase tracking-[3px] text-xs mb-3 font-semibold">
+        FAQ
+      </p>
+
+      <h2 class="text-3xl md:text-5xl font-bold text-slate-900 mb-4">
+        Pertanyaan Umum
+      </h2>
+
+      <p class="text-slate-500">
+        Informasi seputar produk Wave
+      </p>
+
+    </div>
+
+    <!-- FAQ LIST -->
+
+    <div class="space-y-4">
+
+      <!-- ITEM -->
+
+      <div class="faq-item bg-white border border-slate-200 rounded-2xl overflow-hidden transition duration-300">
+
+        <button
+          onclick="toggleFAQ(this)"
+          class="w-full flex items-center justify-between
+          text-left px-6 py-5">
+
+          <span class="font-semibold text-slate-800">
+            Bagaimana cara penggunaan Wave?
+          </span>
+
+          <span class="faq-icon text-blue-600 text-xl transition duration-300">
+            ⌄
+          </span>
+
+        </button>
+
+        <div class="faq-content hidden px-6 pb-5 text-slate-600 leading-relaxed">
+
+          Wave digunakan sesuai petunjuk penggunaan yang dianjurkan.
+
+        </div>
+
+      </div>
+
+      <!-- ITEM -->
+
+      <div class="faq-item bg-white border border-slate-200 rounded-2xl overflow-hidden transition duration-300">
+
+        <button
+          onclick="toggleFAQ(this)"
+          class="w-full flex items-center justify-between
+          text-left px-6 py-5">
+
+          <span class="font-semibold text-slate-800">
+            Apakah dapat digunakan setiap hari?
+          </span>
+
+          <span class="faq-icon text-blue-600 text-xl transition duration-300">
+            ⌄
+          </span>
+
+        </button>
+
+        <div class="faq-content hidden px-6 pb-5 text-slate-600 leading-relaxed">
+
+          Penggunaan dapat disesuaikan dengan kebutuhan masing-masing.
+
+        </div>
+
+      </div>
+
+      <!-- ITEM -->
+
+      <div class="faq-item bg-white border border-slate-200 rounded-2xl overflow-hidden transition duration-300">
+
+        <button
+          onclick="toggleFAQ(this)"
+          class="w-full flex items-center justify-between
+          text-left px-6 py-5">
+
+          <span class="font-semibold text-slate-800">
+            Bagaimana mendapatkan informasi lebih lanjut?
+          </span>
+
+          <span class="faq-icon text-blue-600 text-xl transition duration-300">
+            ⌄
+          </span>
+
+        </button>
+
+        <div class="faq-content hidden px-6 pb-5 text-slate-600 leading-relaxed">
+
+          Anda dapat menghubungi kontak WhatsApp yang tersedia.
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<div class="max-w-5xl mx-auto px-5">
+  <div class="border-b border-slate-200"></div>
+</div>
+
+<!-- CTA -->
+
+<section class="py-20 md:py-28 px-5 bg-slate-900 text-white">
+
+  <div class="max-w-4xl mx-auto text-center">
+
+    <p class="uppercase tracking-[3px] text-xs text-slate-300 mb-4">
+      Konsultasi Sekarang
+    </p>
+
+    <h2 class="text-3xl md:text-5xl font-bold leading-tight mb-6">
+      Hubungi Kami untuk Informasi Produk Wave
+    </h2>
+
+    <p class="text-slate-300 leading-relaxed max-w-2xl mx-auto mb-10">
+      Dapatkan informasi lebih lanjut mengenai penggunaan dan manfaat produk Wave.
+    </p>
+
+    <a href="https://wa.me/6287768668790?text=Assalamu'alaikum%20saya%20tertarik%20untuk%20mengetahui%20lebih%20lanjut%20mengenai%20produk%20Wave."
+       target="_blank"
+       class="inline-block bg-white text-slate-900 px-8 py-4 rounded-full font-medium hover:scale-105 transition duration-300">
+
+      Hubungi via WhatsApp
+
+    </a>
+
+  </div>
+
+</section>
+
+<div class="max-w-5xl mx-auto px-5">
+  <div class="border-b border-slate-200"></div>
+</div>
+
+<!-- FOOTER -->
+
+<footer class="bg-white py-10 px-5 border-t border-slate-200">
+
+  <div class="max-w-5xl mx-auto text-center">
+
+    <img src="2.png"
+         class="w-14 mx-auto mb-4">
+
+    <p class="text-slate-500 text-sm">
+      © 2026 Wave - HPA International
+    </p>
+
+    <p class="text-slate-400 text-sm mt-3">
+  Mendukung Relaksasi dan Kenyamanan Tubuh
+</p>
+
+  </div>
+
+</footer>
+
+
+<script>
+
+  const menuBtn = document.getElementById('menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  menuBtn.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+  });
+
+</script>
+
+<script>
+
+  ScrollReveal().reveal('section', {
+    distance: '40px',
+    duration: 1000,
+    easing: 'ease',
+    origin: 'bottom',
+    interval: 100,
+    reset: false
+  });
+
+</script>
+
+<script>
+
+  const faqButtons = document.querySelectorAll('.faq-btn');
+
+  faqButtons.forEach(button => {
+
+    button.addEventListener('click', () => {
+
+      const content = button.nextElementSibling;
+
+      content.classList.toggle('hidden');
+
+    });
+
+  });
+
+</script>
+
+<script>
+
+function toggleFAQ(button){
+
+  const item = button.parentElement;
+  const content = item.querySelector(".faq-content");
+  const icon = item.querySelector(".faq-icon");
+
+  // toggle content
+  content.classList.toggle("hidden");
+
+  // active border
+  item.classList.toggle("border-blue-500");
+
+  // rotate icon
+  icon.classList.toggle("rotate-180");
+
+}
+
+</script>
+
+</body>
+</html>
